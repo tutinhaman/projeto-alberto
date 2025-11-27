@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <title>{% block title %}Controle de Almoxarifado{% endblock %}</title>
+    <script src='https://cdn.tailwindcss.com'></script>
+  </head>
+  <body class='min-h-screen bg-gray-100 text-gray-800 flex flex-col'>
+    <header class='bg-blue-900 text-white shadow-md sticky top-0 z-20'>
+      <div class='max-w-6xl mx-auto flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between px-6 py-4'>
+        <a href='{% url "core:registrar_acesso" %}' class='text-2xl font-semibold tracking-wide'>
+          Controle de Almoxarifado
+        </a>
+        <nav class='flex flex-wrap items-center gap-2 text-sm font-medium'>
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:registrar_acesso" %}'>Registrar Acesso</a>
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:registrar_movimentacao" %}'>Movimentacoes</a>
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:historico" %}'>Historico</a>
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:relatorio_mensal" %}'>Relatorio</a>
+          {% if user.is_authenticated %}
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:logout" %}'>Sair</a>
+          {% else %}
+          <a class='px-3 py-2 rounded-lg hover:bg-blue-800 transition' href='{% url "core:login" %}'>Entrar</a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+    <main class='flex-1 w-full'>
+      <div class='max-w-5xl mx-auto w-full px-6 py-8'>
+        {% if messages %}
+        <div class='space-y-3 mb-6'>
+          {% for message in messages %}
+          <div class='rounded-lg px-4 py-3 text-sm font-medium shadow-md {% if message.tags == "success" %}bg-green-50 text-green-800 border border-green-200{% elif message.tags == "error" %}bg-red-50 text-red-800 border border-red-200{% elif message.tags == "warning" %}bg-yellow-50 text-yellow-800 border border-yellow-200{% else %}bg-blue-50 text-blue-800 border border-blue-200{% endif %}'>
+            {{ message }}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% block content %}{% endblock %}
+      </div>
+    </main>
+    <footer class='text-center text-sm text-gray-500 mt-10 mb-6'>
+      &copy; {% now "Y" %} Controle de Almoxarifado
+    </footer>
+  </body>
+</html>

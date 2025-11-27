@@ -1,0 +1,115 @@
+Watching for file changes with StatReloader
+[10/Nov/2025 21:21:57] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:27] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:28] "GET /movimentacoes/ HTTP/1.1" 200 3275
+[10/Nov/2025 21:22:32] "GET /historico/ HTTP/1.1" 200 1947
+[10/Nov/2025 21:22:35] "GET /movimentacoes/ HTTP/1.1" 200 3275
+[10/Nov/2025 21:22:36] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:36] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:37] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:38] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:22:38] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:23:34] "GET /movimentacoes/ HTTP/1.1" 200 3275
+Not Found: /dashboard/
+[10/Nov/2025 21:28:51] "GET /dashboard/ HTTP/1.1" 404 3596
+Not Found: /dashboard/
+[10/Nov/2025 21:28:57] "GET /dashboard/ HTTP/1.1" 404 3596
+[10/Nov/2025 21:30:32] "GET / HTTP/1.1" 200 3497
+Not Found: /dashboard/
+[10/Nov/2025 21:30:37] "GET /dashboard/ HTTP/1.1" 404 3596
+[10/Nov/2025 21:30:48] "GET / HTTP/1.1" 200 3497
+Not Found: /dashboard/
+[10/Nov/2025 21:30:55] "GET /dashboard/ HTTP/1.1" 404 3596
+[10/Nov/2025 21:31:54] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:32:33] "GET / HTTP/1.1" 200 3497
+Not Found: /login
+[10/Nov/2025 21:35:55] "GET /login HTTP/1.1" 404 3581
+C:\Sistema de acesso\controle_almoxarifado\wsgi.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Sistema de acesso\manage.py changed, reloading.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Projeto desativado temporariamente. Remova o arquivo .disabled ou defina DISABLE_CONTROLE_ALMOXARIFADO=0 para habilitar.
+Watching for file changes with StatReloader
+[10/Nov/2025 21:41:03] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:41:26] "GET / HTTP/1.1" 200 3497
+[10/Nov/2025 21:47:22] "GET / HTTP/1.1" 200 3497

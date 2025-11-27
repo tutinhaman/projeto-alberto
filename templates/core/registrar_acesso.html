@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block title %}Registrar Acesso{% endblock %}
+
+{% block content %}
+<section class="bg-white rounded-xl shadow-md p-6">
+  <div class="mb-6">
+    <h1 class="text-2xl font-semibold text-gray-800">Novo Acesso</h1>
+    <p class="text-gray-500">Preencha os dados para liberar a movimentacao.</p>
+  </div>
+
+  <form method="post" class="space-y-6">
+    {% csrf_token %}
+    {% if form.non_field_errors %}
+    <div class="bg-red-50 text-red-700 border border-red-200 rounded-lg px-4 py-3 text-sm">
+      {% for error in form.non_field_errors %}
+      <div>{{ error }}</div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label for="{{ form.funcionario.id_for_label }}" class="block text-sm font-medium text-gray-600 mb-1">Funcionario</label>
+        {{ form.funcionario }}
+        {% for error in form.funcionario.errors %}
+        <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+        {% endfor %}
+      </div>
+      <div>
+        <label for="{{ form.autorizador.id_for_label }}" class="block text-sm font-medium text-gray-600 mb-1">Autorizador</label>
+        {{ form.autorizador }}
+        {% for error in form.autorizador.errors %}
+        <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+        {% endfor %}
+      </div>
+      <div class="md:col-span-2">
+        <label for="{{ form.almoxarifado.id_for_label }}" class="block text-sm font-medium text-gray-600 mb-1">Almoxarifado</label>
+        {{ form.almoxarifado }}
+        {% for error in form.almoxarifado.errors %}
+        <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <span class="block text-sm font-medium text-gray-600 mb-1">Tipo</span>
+        <div class="space-y-2">
+          {% for radio in form.tipo %}
+          <label class="inline-flex items-center gap-2 text-sm text-gray-700">
+            {{ radio.tag }}
+            <span>{{ radio.choice_label }}</span>
+          </label>
+          {% endfor %}
+        </div>
+        {% for error in form.tipo.errors %}
+        <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+        {% endfor %}
+      </div>
+      <div>
+        <label for="{{ form.justificativa_padrao.id_for_label }}" class="block text-sm font-medium text-gray-600 mb-1">Justificativa</label>
+        {{ form.justificativa_padrao }}
+        {% for error in form.justificativa_padrao.errors %}
+        <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div id="observacao-group" class="hidden">
+      <label for="{{ form.observacao.id_for_label }}" class="block text-sm font-medium text-gray-600 mb-1">Observacao</label>
+      {{ form.observacao }}
+      {% for error in form.observacao.errors %}
+      <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+      {% endfor %}
+    </div>
+
+    <div class="flex flex-wrap gap-3">
+      <button type="submit" class="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-4 py-2 rounded-md transition">
+        Salvar acesso
+      </button>
+      <a href="{% url 'core:historico' %}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium px-4 py-2 rounded-md transition">
+        Ver historico
+      </a>
+    </div>
+  </form>
+</section>
+
+<script>
+  (function () {
+    const select = document.getElementById('{{ form.justificativa_padrao.id_for_label }}');
+    const observacaoGroup = document.getElementById('observacao-group');
+    function toggleObservacao() {
+      if (!select || !observacaoGroup) return;
+      const mostrar = select.value === 'OUTROS';
+      observacaoGroup.classList.toggle('hidden', !mostrar);
+    }
+    if (select) {
+      toggleObservacao();
+      select.addEventListener('change', toggleObservacao);
+    }
+  })();
+</script>
+{% endblock %}
